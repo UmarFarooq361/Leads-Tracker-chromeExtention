@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.container{
+    width: 350px;
+    height: 200px;
+}
+.btn-row{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+button{
+    padding: 15px;
+    margin: 10px 0px;
+    background-color: rgb(4, 121, 24);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: .3s ease;
+    font-weight: bold;
+}
+#dlt-btn{
+    color: rgb(244, 245, 255);
+    border:2px solid rgb(5, 5, 63);
+    background-color: rgb(32, 189, 201);
+    
+}
+button:hover{
+    color:  rgb(0, 0, 0);
+    background-color: rgb(235, 139, 75);
+
+}
+ul{
+    list-style: none;
+    padding-left: 5px;
+}
+li{
+    padding: 5px 0px;
+}
+a{
+    color: rgb(44, 190, 24);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
